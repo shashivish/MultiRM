@@ -66,7 +66,7 @@ if __name__ == "__main__":
 
     for pos in range(original_length-51+1):
         cutted_seqs = args.seqs[pos:pos+51]
-
+        print(cutted_seqs)
 
         seqs_kmers_index = seq2index([cutted_seqs],embeddings_dict)
 
