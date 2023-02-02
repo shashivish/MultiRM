@@ -281,7 +281,7 @@ if __name__ == "__main__":
 
     # setting the hyper parameters
     parser = argparse.ArgumentParser(description="Naive Network on RBP.")
-    parser.add_argument('--inputs', default='../Data/data_12RM.h5', type=str)
+    parser.add_argument('--inputs', default='../Data/MultiRM_data.h5', type=str)
     parser.add_argument('--epochs', default=50, type=int)
     parser.add_argument('--batch_size', default=128, type=int)
     parser.add_argument('--length', default=101, type=int)
